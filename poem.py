@@ -1,11 +1,5 @@
 from random import choice
 
-# Work in progress.
-# Add While loop to add 3 different words from each list
-# 3 nouns, 3 verbs, 3 adjectives, 1 adverb, 2 prepositions
-# Use .format()
-# A -> an if first adjective starts with a vowel
-
 nouns = ['fossil', 'horse', 'aardvark', 'judge', 'chef', 'mango', 'extrovert', 'gorilla']
 verbs = ['kicks', 'jingles', 'bounces', 'slurps', 'meows', 'explodes', 'curdles']
 adjectives = ['furry', 'balding', 'incredulous', 'fragrant', 'exuberant', 'glistening']
