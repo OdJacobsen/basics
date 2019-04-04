@@ -1,13 +1,13 @@
-capitals_dict = {
-    'Alabama': 'Montgomery',
-    'Alaska': 'Juneau',
-    'Arizona': 'Phoenix',
-    'Arkansas': 'Little Rock',
-    'California': 'Sacramento',
-    'Colorado': 'Denver',
-    'Connecticut': 'Hartford',
-    'Delaware': 'Dover',
-    'Florida': 'Tallahassee',
-    'Georgia': 'Atlanta',
+countries_dict = {
+    'AFGHANISTAN': 'KABUL',
+    'ALBANIA': 'TIRANA',
+    'ALGERIA': 'ALGIERS',
+    'ANDORRA': 'ANDORRA LA VELLA',
+    'ANGOLA': 'LUANDA',
+    'ARGENTINA': 'BUENOS AIRES',
+    'ARMENIA': 'YEREVAN',
+    'AUSTRALIA': '	CANBERRA',
+    'AUSTRIA': 'VIENNA',
+    'AZERBAIJAN': 'AZERBAIJAN',
 }
 
