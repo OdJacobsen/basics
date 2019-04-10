@@ -13,6 +13,7 @@ class Animal:
         self.lives = lives
 
     def __str__(self):
+        # Checking is first letter of two types of string are vowels or not
         if 'aeoui'.find(
                 self.animal_type[0].lower()) != -1 and 'aeoui'.find(
                 self.name[0].lower()) != -1:
@@ -31,6 +32,10 @@ class Animal:
 
         return f'{article} {self.animal_type} eats {food}'
 
+    # Defined speaker method
+    def speak(self, sound):
+        return f'{self.name} says {sound}'
+
 
 class Horse(Animal):
     skin = 'brown'
@@ -39,11 +44,15 @@ class Horse(Animal):
         return super().feed(food)
 
 
-class Emoij(Animal):
-    pass
+class Duck(Animal):
+    skin = 'feather'
+
+    def speak(self, sound='Quack Quack'):
+        return super().speak(sound)
 
 
 horse = Horse('iorse', 'Albert', 'Stable')
-print(horse)
+duck = Duck('Duck', 'Thomas', 'Pound')
+print(duck.speak())
 
 
